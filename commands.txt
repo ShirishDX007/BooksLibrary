@@ -1,0 +1,5 @@
+	python manage.py test books_library_app.tests.bookslibraryURLstest.test_home_url_name
+	
+	python manage.py test books_library_app.tests.CatalogueTemplateTests.test_homepage_contains_correct_html
+
+	python manage.py test books_library_app.tests.CatalogueViewstests.test_book_list_view
